@@ -1,6 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Card from 'react-bootstrap/Card'
+import PatternDividerMobile from "../images/pattern-divider-mobile.svg";
+import PatternDividerDesktop from "../images/pattern-divider-desktop.svg";
+import DiceIcon from "../images/icon-dice.svg";
+
 
 function AdviceApp() {
   const [advice, setAdvice] = useState("");
@@ -19,10 +23,10 @@ function AdviceApp() {
       <Card className="card">
         <h1 className="advice-heading"> Advice # {id}</h1>
         <p className="advice-paragraph">"{advice}"</p>
-        <img src="images/pattern-divider-desktop.svg" alt="patter-divider-desktop" className="pattern-divider" />
-        <img src="images/pattern-divider-mobile.svg" alt="patter-divider-desktop" className="pattern-divider-mobile" />
+        <img src={PatternDividerDesktop} alt="patter-divider-desktop" className="pattern-divider" />
+        <img src={PatternDividerMobile} alt="patter-divider-mobile" className="pattern-divider-mobile" />
       </Card>
-      <button onClick={loadAdvice}><img src="images/icon-dice.svg" alt="dice-icon" className="dice-image" /></button>
+      <button onClick={loadAdvice}><img src={DiceIcon} alt="dice-icon" className="dice-image" /></button>
     </div>
   );
 }

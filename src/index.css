@@ -22,14 +22,18 @@ body{
 .wrapper{
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .card{
   border-radius: 5%;
   background-color: hsl(217, 19%, 24%);
+  display: flex;
+  align-items: center; 
+  min-height: 40vh;
+  flex-direction: column;
   justify-content: center;
-  margin: 100px 0 0px 515px;
-  padding: 50px 20px;
+  padding: 30px;
   text-align: center;
   vertical-align: middle;
   width: 440px;
@@ -42,7 +46,10 @@ button{
   border-color: hsl(150, 100%, 66%);
   box-shadow: none;
   border: 0cm;
-  margin-top: -30px;
+  margin: -30px auto auto 8px;
+  position: absolute; 
+  left: 50%; 
+  transform: translate(-50%);
 }
 
 button:hover{

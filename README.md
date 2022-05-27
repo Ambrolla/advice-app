@@ -4,8 +4,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Solution at frontendmentor.io](https://your-solution-url.com)
-- Live Site URL: [Live solution](https://your-live-site-url.com)
+- Solution URL: [Solution at frontendmentor.io](https://www.frontendmentor.io/solutions/advice-app-VvHJFht4SB)
+- Live Site URL: [Live solution](http://ambrolla.io/advice-app/)
 
 ### Built with
 
