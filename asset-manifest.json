@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/advice-app/static/css/main.48fd2a7a.css",
-    "main.js": "/advice-app/static/js/main.24f45bb8.js",
+    "main.css": "/advice-app/static/css/main.af36cfdd.css",
+    "main.js": "/advice-app/static/js/main.949912b5.js",
     "index.html": "/advice-app/index.html",
-    "main.48fd2a7a.css.map": "/advice-app/static/css/main.48fd2a7a.css.map",
-    "main.24f45bb8.js.map": "/advice-app/static/js/main.24f45bb8.js.map"
+    "static/media/icon-dice.svg": "/advice-app/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-desktop.svg": "/advice-app/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
+    "static/media/pattern-divider-mobile.svg": "/advice-app/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
+    "main.af36cfdd.css.map": "/advice-app/static/css/main.af36cfdd.css.map",
+    "main.949912b5.js.map": "/advice-app/static/js/main.949912b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.48fd2a7a.css",
-    "static/js/main.24f45bb8.js"
+    "static/css/main.af36cfdd.css",
+    "static/js/main.949912b5.js"
   ]
 }
