@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Footer */
+
+.attribution { 
+  color: rgb(146, 141, 141);
+  margin: 350px 0 0 0;
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(229, 41%, 90%); 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Main Card */
+
+body{
+  background-color: hsl(218, 23%, 16%);
+  color: black;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+}
+
+.wrapper{
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  border-radius: 5%;
+  background-color: hsl(217, 19%, 24%);
+  justify-content: center;
+  margin: 100px 0 0px 515px;
+  padding: 50px 20px;
+  text-align: center;
+  vertical-align: middle;
+  width: 440px;
+}
+
+button{
+  border-radius: 100%;
+  padding: 15px;
+  background-color: hsl(150, 100%, 66%);
+  border-color: hsl(150, 100%, 66%);
+  box-shadow: none;
+  border: 0cm;
+  margin-top: -30px;
+}
+
+button:hover{
+filter: brightness(135%);
+}
+
+/* images */
+
+.dice-image{
+width: 22px;
+}
+
+/* Font  */
+
+.advice-heading{
+  margin-top: -25px;
+  font-size: 15px;
+  color: hsl(150, 100%, 66%);
+}
+
+.advice-paragraph{
+  font-size: 28px;
+  color: white;
+}
+
+/* Media */
+
+@media only screen and (max-width: 440px) {
+
+  .card{
+    margin: auto;
+    width: 285px;
+  }
+  .pattern-divider{
+    display: none !important;
+  }
+  
+}
+
+@media only screen and (min-width: 450px){
+  .card{
+  margin-left: 210px;
+  width: 330px;
+  }
+  .pattern-divider{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .card{
+    margin: 150px 0 0px 510px;
+    width: 440px;
+  }
+  .pattern-divider-mobile{
+    display: none !important;
+  }
+  .pattern-divider{
+  display: block !important;
+  }
 }
